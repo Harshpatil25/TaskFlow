@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link id="themeStylesheet" rel="stylesheet" href="style-light.css">
+
+    <title>Pending-Task</title>
+</head>
+<body>
+    <div class="taskflow">
+        <div class="header">
+            <h2>TaskFlow</h2>
+            <button id="modeBtn">Switch</button>
+        </div>
+
+    <div class="add-section">
+        <input type="text" id="taskInput" placeholder="Add a new task ....." />
+        <button id="addBtn">Add Task</button>
+    </div>
+
+    <div class="tabs">
+        <a href="home.html">All</a>
+        <a href="pending.html" class="active">Pending</a>
+        <a href="completed.html">Completed</a>
+    </div>
+
+    <div class="section">
+        <h3>Pending Tasks</h3>
+        <ul id="pendingList"></ul>
+    </div>
+    <footer>
+    <p>&copy; 2026 TaskFlow. All rights reserved.</p>
+    </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
